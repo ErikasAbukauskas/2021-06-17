@@ -132,7 +132,7 @@
             color: #808080;
         }
 
-        .footer-elements button, .footer-elements p, .footer-elements a{
+        .footer-elements button, .footer-elements p, .footer-elements a {
 
             display: inline-block;
         
@@ -173,15 +173,71 @@
         .btn:hover {
             cursor: pointer;
         }
+
+        @media screen and (max-width:1590px) {
+            .container {
+                width: 57.05%;
+            }
+        }
+
+        @media screen and (max-width:1160px) {
+
+            .footer-elements button, 
+            .footer-elements p, 
+            .footer-elements a {
+                display: block;
+                padding-top: 0.6111rem; 
+            }
+
+            .footer-elements a, .footer-elements p {
+                padding-left: 0;
+                text-align: center;
+            }
+
+            .footer-elements button {
+                width: 100% ;
+            }
+            
+        }
+
+        
+
+        @media screen and (max-width:833px) {
+            .left, .right {
+                width: 100%;
+                height: auto;
+            }
+            .left-container {
+                height: auto;
+
+            }
+            .nuorodos {
+                position: static;
+                bottom: 0;
+                padding-bottom: 1rem;
+            }
+
+            .right-container {
+                position: relative;
+            }
+        }
+
+        @media screen and (max-width:500px) {
+            html {
+            font-size: 16px;
+        }
+        .container {
+            width: 100%;
+        }
+            
+        }
         
         
 
 
-
-
+    
     </style> 
  
-
 </head>
 <body>
 
@@ -224,6 +280,8 @@
                     <a href="#">Sign in</a>
                 </div>
             </div>
+    
+        </div>
 
     </div>
 
